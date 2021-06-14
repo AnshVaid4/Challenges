@@ -1,0 +1,15 @@
+> You get a search input box. Whatever you type would be provided as a google link encrypted with base64, 
+  which is displayed below the banner picture.
+> But this search input box is prone to LFI vulnerability. The process is as follows. The challenge is just a dumy, cz username and
+  password will be finalized when the challenge is uploaded on the server.
+> Just for the scenario, Let the username be "theHarvester" and password be "password" which will be stored in /etc/passwd file. And the
+  contestents have to exploit the LFI vulnerability to get the username and password from /etc/passwd file.
+> ..%2F..%2F..%2F..%2Fetc%2Fpasswd will be used to see the content of /etc/passwd. But the content will be displayed in the form of
+  base64 encrypted text. Contestents can see the text in inspect element or can also get the encrypted text from just below the banner
+  photo. But the background and text colour would be same, so it will be hard to see from here. Better idea is to inspect.
+> From there the "username" and "password" of suspecious user would be used in the login form.
+> The login form is hidden. So the contestents have to remove the css to see the login form. There the contestent will type the correct username
+  and password an submit. The input sanitization is on in the input boxes. If the username and password is correct then the alert box
+  showing the flag of the CTF will popup. In this case it will show "VULNCON{Y0u_Fin@l1y_SOlv3D_iT}".
+> Challenge is complete.
+
