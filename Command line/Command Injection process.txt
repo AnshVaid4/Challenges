@@ -1,0 +1,10 @@
+> There is an input box, which has vulnerabiity of command injection and no other way is to exploit this page.
+> You type any domain name, the whois record will be displayed onto the screen.
+> There are many ways to do command injection, but all those methods are patched. Only one method is there to do it. And that method is
+  by using "&" to separate the commands. ";" or "|" or "||" or "&&" will not work. Contestants should be knowing vaarious ways of injecting
+  the command and using "&" is one of the ways to do so.
+> Use command "google.com & ls -l" to run the "ls -l" command.
+> But the flag file is hidden. So use the command "google.com & ls -al".
+> There is a file name ".S3CreT_fIl3_4__FlAG.php" which has a flag.
+> To view the file from this file use the command "google.com & cat .S3CreT_fIl3_4__FlAG.php". 
+> In this case the flag "flag{C0rR3Ct_fl4g_F0Und}" will be displayed on screen.
