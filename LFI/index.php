@@ -24,7 +24,7 @@
 $pic = array("download.jpg","download1.jpg","download2.jpg","download3.jpg","download4.jpg","download5.jpg","download6.jpg","download7.jpg","download8.jpg","download9.jpg","download10.jpg");  
 shuffle($pic);  
 ?>  
-  <!-- images credits https://unsplash.com/s/photos/cyber-security and https://wallpaperaccess.com/ -->
+  <!-- images credits https://wallpaperaccess.com/inception -->
 <?php  
 	for( $i = 0; $i < 1; $i++)  
 	      echo "<li style=\"display: inline;\"> 
