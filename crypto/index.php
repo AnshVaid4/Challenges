@@ -5,7 +5,7 @@
 </head>
 <body>
 <div class="top">    
-<h1>Welcome to the world of cryptography<h1><br>
+<h1>Welcome to the world of cryptography</h1><br>
 <h3>Satoshi has a digital safe having a crypto wallet and flag for this level in it. He has lost the key of that safe, but he knows that the key of the safe is 25-bytes bitcoin address of the
     wallet present in safe. He goes to bed and try to find that key in his dream but encounters a cipher and another key. Would he be successfull to reach the key of digital safe, with the help of key 
     he found in dream? <b>Remember it's Inception of cryptography</b>
@@ -25,31 +25,29 @@ Cipher: <p>h6dVaUccduSY14Q8qmlWbh62vrUFbGXZWU7TTi/MmyKGnu29tQdoUkzO2sA6pV6bfDUDb
 </div>
 <div class="form">
     <form method="POST" action="#">
-        <label>Key of safe</label><br>
-        <input type="text" name="address" maxlength="50"></input><br><br>
-        <button name="submit">Submit</button> 
+        <label>Digital Safe</label><br>
+        <input type="text" name="address" maxlength="100" placeholder="Please enter the key to open safe and retrieve flag"></input><br><br>
+        <button name="submit">Submit</button> <br>
+        <?php
+            if(isset($_POST['submit']) and $_POST['address'] != null)
+            {
+                $address=htmlspecialchars($_POST['address']);
+                // $address=$_POST['address'];
+                if($address == "007f9db50a2e6b134b5b776a70131cbefd27ec35ffefd9b46d")
+                {
+                    echo "
+                    <script>alert('Your flag is CTF{ThiS_is_Y0uR_fl4G}');window.location.replace('index.php')</script>
+                    ";
+                }
+                else
+                {
+                    echo "$address is the wrong key to unlock safe";
+                }
+            }
+        ?>
     </form>
 </div>
 
 </body>
 </html>
 
-<?php
-if(isset($_POST['submit']) and $_POST['address'] != null)
-{
-    $address=htmlspecialchars($_POST['address']);
-    // $address=$_POST['address'];
-    if($address == "007f9db50a2e6b134b5b776a70131cbefd27ec35ffefd9b46d")
-    {
-        echo "
-        <script>alert('Your flag is CTF{ThiS_is_Y0uR_fl4G}');window.location.replace('index.php')</script>
-        ";
-    }
-    else
-    {
-        echo "
-        <script>window.location.replace('index.php');</script>
-        ";
-    }
-}
-?>

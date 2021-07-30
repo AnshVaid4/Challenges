@@ -20,16 +20,11 @@
     width: 100%;   
 }
 
-.top .key
+.top p
 {
-    /* margin: 0px 10px 0px 10px; */
-    overflow-wrap: break-word;
+    font-size: 1.2em;
 }
 
-.key p
-{
-    color: mediumblue;
-}
 
 .left
 {
@@ -63,7 +58,6 @@
     border-right: none;
     background-color: rgb(119, 181, 219);
     outline: none;
-    
 }
 
 .form input:focus
