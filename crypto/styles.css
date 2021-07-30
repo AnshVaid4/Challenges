@@ -33,7 +33,7 @@
 
 .left
 {
-    width: 35%;
+    width: 32%;
     float: left;
 }
 
@@ -41,7 +41,7 @@
 {
     float: left;
     margin-top: 20px;
-    width: 30%;
+    width: 37%;
     padding: 20px 10px 20px 10px;
     background-color: rgb(176, 216, 240);
     word-break: break-all;
@@ -55,9 +55,9 @@
 
 .form input
 {
-    width:450px;
+    width:520px;
     height:20px;
-    font-size: 1em;
+    font-size: 0.9em;
     border-top: none;
     border-left: none;
     border-right: none;

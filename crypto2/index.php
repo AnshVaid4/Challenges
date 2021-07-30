@@ -2,6 +2,7 @@
 <head>
     <title>Crypto</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
 <div class="top">    
@@ -22,8 +23,8 @@
 </div>
 <div class="form">
     <form method="POST" action="#">
-        <label>Digital Safe</label><br>
-        <input type="text" name="address" maxlength="100" placeholder="Please enter the key to open safe and retrieve flag"></input><br><br>
+        <label><i class="fas fa-user-lock"> Digital Safe</i></label><br>
+        <i class="fas fa-key"></i><input type="text" name="address" maxlength="100" placeholder="Please enter the key to open safe and retrieve flag"></input><br><br>
         <button name="submit">Submit</button><br>
         <?php
             if(isset($_POST['submit']) and $_POST['address'] != null)
