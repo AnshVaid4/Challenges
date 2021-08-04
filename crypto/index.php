@@ -34,7 +34,7 @@ Cipher: <p>h6dVaUccduSY14Q8qmlWbh62vrUFbGXZWU7TTi/MmyKGnu29tQdoUkzO2sA6pV6bfDUDb
             {
                 $address=htmlspecialchars($_POST['address']);
                 // $address=$_POST['address'];
-                if($address == "007f9db50a2e6b134b5b776a70131cbefd27ec35ffefd9b46d")
+                if($address == "007f9db50a2e6b134b5b776a70131cbefd27ec35ffefd9b46d" || $address == strtoupper("007f9db50a2e6b134b5b776a70131cbefd27ec35ffefd9b46d"))
                 {
                     echo "
                     <script>alert('Your flag is CTF{ThiS_is_Y0uR_fl4G}');window.location.replace('index.php')</script>

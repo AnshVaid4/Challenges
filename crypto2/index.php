@@ -9,9 +9,9 @@
 <h1>Welcome to the world of cryptography</h1><br>
 <p>Cobb came across a safe, containing the flag for this challenge. On the safe it was written <b>"Your old friend Satoshi"</b>. As usual Cobb took Somnacin to initiate the 
     dream, and met Satoshi to get the flag.
-    Satoshi told that he had locked the flag in that digital safe and the key to open it has some relation with his block number 691604. He gave the hint 
-    to Cobb that the key for this safe is same as that of <b>hash of the block, if it was mined 5 minutes before from the actual time</b>. Well it's Inception and Cobb
-    has decided to find it in his dream, if incase he needs some more hints from Satoshi. You are Cob, can you get the flag before the dream finishes?
+    Satoshi told that he had locked the flag in that digital safe and the key to open it has some relation with his block number 691604, and also that key 
+    is same as that of <b>hash of the block, if it was mined 5 minutes before from the actual time</b> but with same other headers. Well it's Inception 
+    and Cobb has decided to find it in his dream, if incase he needs some more hints from Satoshi. You are Cob, can you get the flag before the dream finishes?
 </p>
 <br>
 </div>
@@ -32,7 +32,7 @@
                 $address=htmlspecialchars($_POST['address']);
                 // $address=$_POST['address'];
                 
-                if($address == "39f68317caa4688a65827f65e0e3101b8e9d02f25d949ddb08680a614d777c37")
+                if($address === "03c62b6067ffa75778450ada3cf817ab1268abac911a6dbe4f1775132871b9ab" || $address === strtoupper("03c62b6067ffa75778450ada3cf817ab1268abac911a6dbe4f1775132871b9ab"))
                 {
                     echo "
                     <script>alert('Your flag is CTF{ThiS_is_Y0uR_fl4G}');window.location.replace('index.php');</script>
