@@ -17,10 +17,8 @@ if($_SESSION['uname'] != null)
     {
         $row=mysqli_fetch_array($queryexec);
         if($row["priv"] == "N")
-        {
-            echo "
-                <script>alert('You are not an administrator. Only admin can access shell.');</script>
-                ";
+        {?><h1 style="text-align:center;font-family: Lucida Console, Courier New, monospace;padding-top:2em;"><?Php
+            echo "You are not an administrator. Only admin can access shell.";?></h1><?php
         }
     }
     else
@@ -51,6 +49,7 @@ if($_SESSION['uname'] != null)
 <label><i class="fa fa-user-circle"> Username</i></label><br>
 <input type="text" name="check" maxlength="100" placeholder="Enter the username to give it admin privileges"></input><br><br>
 <button name="submit">Submit</button><br>
+<a href="dashboard.php">Back to dashboard</a><br>
 <?php
 }}}
 if(isset($_GET['submit']) and $_GET['check'] !=null and ($_GET['check'] == $_SESSION['uname']) and $_SESSION['uname'] == 'management')
@@ -79,7 +78,6 @@ if(isset($_GET['submit']) and $_GET['check'] !=null and ($_GET['check'] != $_SES
 ?> <p style="color: red;"><b>You don't have permission to make others admin</b></p><?php
 }
 ?>
-
 </form>
 </div>
 </div>
@@ -107,6 +105,8 @@ if($_SESSION['uname'] != null)
 <input type="text" name="cmd" maxlength="100" placeholder="Enter username here"></input><br><br>
 <button name="submit2">Submit</button><br>
 <p style="color: red;"><b>Under maintainance</b></p>
+<br>
+<a href="dashboard.php">Back to dashboard</a>
 </form>
 </div>
 </div>

@@ -26,6 +26,7 @@
 		<li><a class="cd-faq__category truncate" href="#payments">Payments</a></li>
 		<li><a class="cd-faq__category truncate" href="#privacy">Privacy</a></li>
 		<li><a class="cd-faq__category truncate" href="#delivery">Delivery</a></li>
+		<li><a class="cd-faq__category truncate" href="#tech">TECH SUPPORT TEAM</a></li>
 	</ul> <!-- cd-faq__categories -->
 
 	<div class="cd-faq__items">
@@ -291,7 +292,7 @@
 		</ul> <!-- cd-faq__group -->
 
 
-		<ul id="delivery" class="cd-faq__group">
+		<ul id="tech" class="cd-faq__group">
 			<li class="cd-faq__title"><h2>Tech Support Team</h2></li>
 			<li class="cd-faq__item">
 				<a class="cd-faq__trigger" href="#0"><span>Contact to technical support team</span></a>
