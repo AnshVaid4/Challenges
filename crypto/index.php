@@ -8,7 +8,7 @@
 <div class="top">    
 <h1>Welcome to the world of cryptography</h1><br>
 <h3>Satoshi has a digital safe having a crypto wallet and flag for this level in it. He has lost the key of that safe, but he knows that the key of the safe is 25-bytes bitcoin address of the
-    wallet present in safe. He goes to bed and try to find that key in his dream but encounters a cipher and another key. Would he be successfull to reach the key of digital safe, with the help of key 
+    wallet present in safe. He goes to bed and try to find that key in his dream but encounters a cipher and another key. Would he be successful to reach the key of digital safe, with the help of key 
     he found in dream? <b>Remember it's Inception of cryptography</b>
 </h3>
 <br>
