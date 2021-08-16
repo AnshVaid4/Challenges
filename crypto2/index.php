@@ -9,7 +9,7 @@
 <h1>Welcome to the world of cryptography</h1><br>
 <p>Cobb came across a safe, containing the flag for this challenge. On the safe it was written <b>"Your old friend Satoshi"</b>. As usual Cobb took Somnacin to initiate the 
     dream, and met Satoshi to get the flag.
-    Satoshi told that he had locked the flag in that digital safe and the key to open it has some relation with his block number 691604, and also that key 
+    Satoshi told that he had locked the flag in that digital safe and the key to open it has some relation with his block number 691604, as the key 
     is same as that of <b>hash of the block, if it was mined 5 minutes before</b>, with same nonce. Well it's Inception 
     and Cobb has decided to find it in his dream, if incase he needs some more hints from Satoshi. You are Cob, can you get the flag before the dream finishes?
 </p>
