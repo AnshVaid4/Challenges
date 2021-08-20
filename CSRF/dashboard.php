@@ -48,7 +48,7 @@ if($_SESSION['uname'] == null)
 </div>
 
 <div class="images">
-<<img src="inception.jpg"	>
+<img src="inception.jpg">
 <img src="inception2.jpg"	>
 </div>
 </div><nav class="main-menu">
@@ -56,7 +56,7 @@ if($_SESSION['uname'] == null)
 
   
  <div>
-    <a class="logo" href="http://startific.com">
+    <a class="logo" href="#">
     </a> 
   </div> 
 <div class="settings"></div>
@@ -84,7 +84,7 @@ if($_SESSION['uname'] == null)
 
  
 <li>
-<a href="http://startific.com">
+<a href="#">
 <i class="fa fa-heart-o fa-lg"></i>
                         
 <span class="share"> 
@@ -121,14 +121,7 @@ margin-left: 56px;top:3px;">
                         </span>
                         <span class="twitter"></span>
                         <span class="google"></span>
-                        <span class="fb-like">  
-<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fstartific&amp;width&amp;layout=button&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:35px;" allowTransparency="true"></iframe>
-                       
-                        </span>
-                        <span class="nav-text">
-                        </span>
                         
-                    </a>
 
 </li>
                             
@@ -216,12 +209,7 @@ margin-left: 56px;top:3px;">
 </a>
 </li>
   
-<li class="darkerlishadowdown">
-<a href="http://startific.com">
-<i class="fa fa-rocket fa-lg"></i>
-<span class="nav-text">Startific</span>
-</a>
-</li>
+
  
   
 </ul>
