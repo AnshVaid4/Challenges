@@ -104,7 +104,7 @@ if($_SESSION['uname'] != null)
 <label><i class="fas fa-terminal"> Command Line</i></label><br>
 <input type="text" name="cmd" maxlength="100" placeholder="Enter username here"></input><br><br>
 <button name="submit2">Submit</button><br>
-<p style="color: red;"><b>Under maintainance</b></p>
+<p style="color: red;"><b>Under maintenance</b></p>
 <br>
 <a href="dashboard.php">Back to dashboard</a>
 </form>
@@ -119,7 +119,7 @@ if($_SESSION['uname'] != null)
  <p><?php 
     $cmd= htmlspecialchars($_POST['cmd']);
     echo "
-    <script>alert('$cmd : Under Maintainance');</script>
+    <script>alert('$cmd : Under Maintenance');</script>
     ";  }  ?></p>
     
 
