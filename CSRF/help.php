@@ -1,4 +1,9 @@
-<?php session_start(); ?>
+<?php session_start(); 
+if($_SESSION['uname'] == null)
+{
+	header("Location: index.php");
+}
+?>
 <!doctype html>
 <html lang="en">
 <head>

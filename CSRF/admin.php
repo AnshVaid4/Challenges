@@ -35,4 +35,8 @@ if($_SESSION['uname'] != null)
     }
     
 }
+else{
+    
+	header("Location: index.php");
+}
 ?>

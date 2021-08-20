@@ -30,6 +30,9 @@ if($_SESSION['uname'] != null)
     }
     
 }
+else{
+    header("Location: index.php");
+}
 if($_SESSION['uname'] != null)
 {
     include "connection.php";
