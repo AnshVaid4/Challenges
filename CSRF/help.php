@@ -26,7 +26,7 @@
 		<li><a class="cd-faq__category truncate" href="#payments">Payments</a></li>
 		<li><a class="cd-faq__category truncate" href="#privacy">Privacy</a></li>
 		<li><a class="cd-faq__category truncate" href="#delivery">Delivery</a></li>
-		<li><a class="cd-faq__category truncate" href="#tech">TECH SUPPORT TEAM</a></li>
+		<li><a class="cd-faq__category truncate" href="#tech">Tech Support Team</a></li>
 	</ul> <!-- cd-faq__categories -->
 
 	<div class="cd-faq__items">
@@ -332,7 +332,7 @@
 				<!-- <label><h3>Chat here</h3></label> -->
 				<div class="persist">
 				</div>
-			  <textarea rows="2" cols="100" name="chat" placeholder="Write to support team" style="resize:none;"></textarea><br>
+			  <textarea rows="2" cols="100" name="chat" placeholder="Write to support team." style="resize:none;"></textarea><br>
 				<div class="buttonc"><input type="submit" value="Send" name="submit" /></div>
         <?php
             
