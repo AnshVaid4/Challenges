@@ -35,7 +35,7 @@
                 if($address === "03c62b6067ffa75778450ada3cf817ab1268abac911a6dbe4f1775132871b9ab" || $address === strtoupper("03c62b6067ffa75778450ada3cf817ab1268abac911a6dbe4f1775132871b9ab"))
                 {
                     echo "
-                    <script>alert('Your flag is wormcon{34cH_S3c0nDs_EFF3cTs_4_L0T!!!!!!}');window.location.replace('index.php');</script>
+                    <script>alert('Your flag is wormcon{34cH_S3c0nD_EFF3cTs_4_L0T!!!!!!}');window.location.replace('index.php');</script>
                     ";
                 }
                 else
