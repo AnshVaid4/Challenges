@@ -1,9 +1,9 @@
 
 <?php      
     error_reporting(0);
-    $host = "localhost";  
+    $host = "db2:3306";  
     $user = "root";  
-    $password = '';  
+    $password = 'ThisisS0P3rS3cur3DBPaw0rd';  
     $db_name = "challenge";  
       
     $conn = mysqli_connect($host, $user, $password,$db_name);  

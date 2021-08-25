@@ -15,7 +15,7 @@ if($_SESSION['uname'] == null)
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Side Sliding Menu CSS</title>
+  <title>Dashboard</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -84,7 +84,7 @@ if($_SESSION['uname'] == null)
 
  
 <li>
-<a href="#">
+<a href="">
 <i class="fa fa-heart-o fa-lg"></i>
                         
 <span class="share"> 
@@ -98,15 +98,15 @@ margin-left: 56px;top:3px;">
   
 
   
- <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank" class="share-popup"><img src="http://icons.iconarchive.com/icons/danleech/simple/512/facebook-icon.png" width="30px" height="30px"></a>
+ <a href="https://www.linkedin.com/company/vulnfreak/" target="_blank" class="share-popup"><img src="https://icons.iconarchive.com/icons/danleech/simple/256/linkedin-icon.png" width="30px" height="30px"></a>
 
-   <a href="https://twitter.com/share" target="_blank" class="share-popup"><img src="https://cdn1.iconfinder.com/data/icons/metro-ui-dock-icon-set--icons-by-dakirby/512/Twitter_alt.png" width="30px" height="30px"></a>
+   <a href="https://twitter.com/vulnfreak" target="_blank" class="share-popup"><img src="https://cdn1.iconfinder.com/data/icons/metro-ui-dock-icon-set--icons-by-dakirby/512/Twitter_alt.png" width="30px" height="30px"></a>
 
    
 
 
-<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=_URL_&title=_TITLE_
-" target="_blank" class="share-popup"><img src="http://icons.iconarchive.com/icons/danleech/simple/512/google-plus-icon.png" width="30px" height="30px"></a>   
+<a href="https://github.com/vulnfreak
+" target="_blank" class="share-popup"><img src="https://icons.iconarchive.com/icons/limav/flat-gradient-social/256/Github-icon.png" width="30px" height="30px"></a>   
   
   
   

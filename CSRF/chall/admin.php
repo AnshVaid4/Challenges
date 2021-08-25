@@ -13,7 +13,7 @@ if($_SESSION['uname'] != null)
         if($row["priv"] == "Y")
         {
             echo "
-                <script>alert('Your flag is wormcon{w1th_csrf_at0_1s_s0_p0ss1bl3_1rb1o3}');
+                <script>alert('Your flag is wormcon{csrfat01ss0p0ss1bl3_1rb1o3}');
                 window.location.replace('dashboard.php');
                 </script>
                 ";
