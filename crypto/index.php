@@ -37,7 +37,7 @@ Cipher: <p>h6dVaUccduSY14Q8qmlWbh62vrUFbGXZWU7TTi/MmyKGnu29tQdoUkzO2sA6pV6bfDUDb
                 if($address === "007f9db50a2e6b134b5b776a70131cbefd27ec35ffefd9b46d" || $address === strtoupper("007f9db50a2e6b134b5b776a70131cbefd27ec35ffefd9b46d"))
                 {
                     echo "
-                    <script>alert('Your flag is wormcon{Pr1v4t3_K3Ys_L34dS_T0_B1Tc01n_4Dr33sS!!!!!!!');window.location.replace('index.php')</script>
+                    <script>alert('Your flag is wormcon{Pr1v4t3_K3Ys_L34dS_T0_B1Tc01n_4Dr33sS!!!!!!!}');window.location.replace('index.php')</script>
                     ";
                 }
                 else

@@ -29,7 +29,7 @@ if($_SESSION['uname'] == null)
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content=="IE=edge"/>
 <meta name="google" value="notranslate"/>
-<title>Side Menu</title>
+<title>Dashboard</title>
 
 <link rel="stylesheet" type="text/css" href="css/menu.css">
 <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
