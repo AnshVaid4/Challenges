@@ -4,11 +4,7 @@ session_start();
 if($_SESSION['uname'] == null)
 {
   session_destroy();
-  echo "
-  <script>
-  window.open('http://localhost/projects/login/index.php', '_self');
-  </script>
-  ";
+  header("Location: index.php");
 }
 ?>
 <!DOCTYPE html>

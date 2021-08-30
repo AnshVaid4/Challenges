@@ -14,7 +14,7 @@ if($_SESSION['uname'] == null)
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="css/menu.css">
   <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <title>Help</title>
+  <title>FAQ Template | CodyHouse</title>
 </head>
 <body>
 <header class="cd-header flex flex-column flex-center">

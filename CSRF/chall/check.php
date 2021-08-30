@@ -1,3 +1,11 @@
+<?php
+error_reporting(0);
+session_start();
+if($_SESSION['uname'] == null)
+{
+	header("Location: index.php");
+}
+?>
 <html>
 <head>
 <title>Shell</title>
@@ -6,8 +14,7 @@
 </head>
 <body>
 <?php
-error_reporting(0);
-session_start();
+
 if($_SESSION['uname'] != null)
 {
     include "connection.php";
@@ -31,9 +38,7 @@ if($_SESSION['uname'] != null)
     }
     
 }
-else{
-    header("Location: index.php");
-}
+
 if($_SESSION['uname'] != null)
 {
     include "connection.php";
